@@ -1,0 +1,33 @@
+    1  --global user.name "Your Name"arnautkatya"
+--global user.email "arnaut.katya@gmail.com"
+git config --global user.name arnautkatya
+
+    2  git config --global user.name arnautkatya
+    3  git config --global user.email arnaut.katya@gmail.com
+    4  git clone https://github.com/arnautkatya/HW_10.git
+    5  cd HW_10
+    6  touch text_ignore.txt
+    7  ls -l
+    8  echo "text_ignore.txt" >> .gitignore
+    9  git status
+   10  git add .
+   11  git status
+   12  git commit -m "added new file"
+   13  touch main_test.txt
+   14  git add .
+   15  git commit -m "added new file2"
+   16  git checkout -b develop
+   17  git checkout develop
+   18  touch develop_test.txt
+   19  git add .
+   20  git commit -m "added new file3"
+   21  git add develop_test.txt
+   22  git status
+   23  git add .
+   24  git commit -m "added new file4"
+   25  git log
+   26  git checkout main
+   27  git checkout main
+   28  git merge develop
+   29  git log
+   30  history > command_list.csv
